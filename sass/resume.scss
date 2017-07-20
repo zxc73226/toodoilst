@@ -1,0 +1,94 @@
+/* Welcome to Compass.
+* In this file you should write your main styles. (or centralize your imports)
+* Import this file using the following HTML or equivalent:
+* <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@charset "UTF-8";
+@import url("http://fonts.googleapis.com/earlyaccess/notosanstc.css");
+@import "compass/reset";
+* {
+  box-sizing: border-box; //background-color: $background-color;
+  user-select: none;
+  position: relative;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  font-family: 'Noto Sans TC', sans-serif; //position: relative;
+  background-color: #334276;
+  box-sizing: border-box;
+}
+
+.bbox {
+  width: 50%;
+  height: 100%;
+  margin: 0px auto;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  right: 1%;
+}
+
+#header {
+  width: 50%;
+  margin: 0px auto;
+  font-size: 72px;
+  top: 8%;
+  color: rgba(255, 255, 255, .7);
+  margin-right: 28%;
+}
+
+#article {
+  width: 400px;
+  height: 400px;
+  margin: 20px auto 0px auto;
+  background-image: url("../image/.png");
+  background-size: cover;
+  line-height: 48px;
+  padding: 75px;
+}
+
+.text {
+  top: 15%;
+  text-align: right;
+  font-size: .8rem;
+  letter-spacing: 1px;
+  left: -25px;
+}
+
+.regisered-input-box {
+  margin-left: 5px;
+  background-color: rgba(0, 0, 0, .01);
+  border: none;
+  border-bottom: 1px solid #333;
+  width: 150px;
+  padding: 2px 5px;
+  &:focus {
+    outline: none;
+  }
+}
+
+#btn {
+  width: 130px;
+  font-size: 1.3rem;
+  margin-top: 40px;
+  float: right;
+  background-color: #E5FF86;
+  box-shadow: 2px 2px 4px rgba(33, 33, 33, .2);
+  border-radius: 8px;
+  left: -25px;
+  border: none;
+  cursor: pointer;
+  &:focus {
+    outline: none;
+  }
+  &:hover {
+    box-shadow: 2px 2px 4px rgba(33, 33, 33, .15);
+    color: #666;
+  }
+  &:active {
+    border: 1px inset;
+  }
+}
