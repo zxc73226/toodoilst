@@ -182,8 +182,12 @@ body {
   box-shadow: 2px 2px 4px rgba(33, 33, 33, 0.15);
   color: #666;
 }
+/* line 116, ../sass/todolist.scss */
+.add_btn:active {
+  border: 1px inset;
+}
 
-/* line 118, ../sass/todolist.scss */
+/* line 121, ../sass/todolist.scss */
 .list {
   font-size: 1.3rem;
   color: #444;
@@ -194,18 +198,14 @@ body {
   line-height: 40px;
   padding: 0px 0px 5px 0px;
 }
-/* line 127, ../sass/todolist.scss */
+/* line 130, ../sass/todolist.scss */
 .list:hover {
   color: 0px 0px 2px rgba(33, 33, 33, 0.15);
   color: #777;
 }
-/* line 131, ../sass/todolist.scss */
+/* line 134, ../sass/todolist.scss */
 .list:focus {
   outline: none;
-}
-/* line 134, ../sass/todolist.scss */
-.list:active {
-  border: 1px inset;
 }
 
 /* line 139, ../sass/todolist.scss */

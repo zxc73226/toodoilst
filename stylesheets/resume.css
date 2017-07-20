@@ -92,77 +92,86 @@ body {
   margin: 0px auto;
   display: flex;
   flex-direction: column;
-  text-align: center;
   right: 1%;
 }
 
-/* line 34, ../sass/resume.scss */
+/* line 33, ../sass/resume.scss */
 #header {
   width: 50%;
-  margin: 0px auto;
-  font-size: 72px;
-  top: 8%;
+  margin: 30px auto;
+  font-size: 4rem;
   color: rgba(255, 255, 255, 0.7);
-  margin-right: 28%;
+  text-align: center;
 }
 
-/* line 43, ../sass/resume.scss */
+/* line 41, ../sass/resume.scss */
 #article {
-  width: 400px;
-  height: 400px;
-  margin: 20px auto 0px auto;
-  background-image: url("../image/.png");
-  background-size: cover;
-  line-height: 48px;
-  padding: 75px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
 }
 
-/* line 53, ../sass/resume.scss */
+/* line 47, ../sass/resume.scss */
+.text-box {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  font-size: 1.5rem;
+  margin: 10px 0px;
+  letter-spacing: 1.1px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+/* line 58, ../sass/resume.scss */
+.RP {
+  margin-top: 100px;
+}
+
+/* line 62, ../sass/resume.scss */
 .text {
-  top: 15%;
-  text-align: right;
-  font-size: .8rem;
-  letter-spacing: 1px;
-  left: -25px;
+  color: #4242c8;
+  margin-left: 10px;
 }
 
-/* line 61, ../sass/resume.scss */
-.regisered-input-box {
-  margin-left: 5px;
-  background-color: rgba(0, 0, 0, 0.01);
+/* line 67, ../sass/resume.scss */
+.input-box {
+  margin: 2px 0px 0px 5px;
+  padding: 0px 3px 0px 3px;
   border: none;
-  border-bottom: 1px solid #333;
-  width: 150px;
-  padding: 2px 5px;
+  letter-spacing: .7px;
+  background-color: #334276;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.7);
 }
-/* line 68, ../sass/resume.scss */
-.regisered-input-box:focus {
+/* line 74, ../sass/resume.scss */
+.input-box:focus {
   outline: none;
 }
 
-/* line 73, ../sass/resume.scss */
-#btn {
+/* line 79, ../sass/resume.scss */
+.btn {
+  height: 30px;
   width: 130px;
   font-size: 1.3rem;
-  margin-top: 40px;
+  margin-top: 20px;
+  margin-right: 5px;
   float: right;
   background-color: #E5FF86;
   box-shadow: 2px 2px 4px rgba(33, 33, 33, 0.2);
   border-radius: 8px;
-  left: -25px;
   border: none;
   cursor: pointer;
 }
-/* line 84, ../sass/resume.scss */
-#btn:focus {
+/* line 91, ../sass/resume.scss */
+.btn:focus {
   outline: none;
 }
-/* line 87, ../sass/resume.scss */
-#btn:hover {
+/* line 94, ../sass/resume.scss */
+.btn:hover {
   box-shadow: 2px 2px 4px rgba(33, 33, 33, 0.15);
   color: #666;
 }
-/* line 91, ../sass/resume.scss */
-#btn:active {
+/* line 98, ../sass/resume.scss */
+.btn:active {
   border: 1px inset;
 }
