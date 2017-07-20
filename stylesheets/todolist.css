@@ -1,0 +1,275 @@
+/* Welcome to Compass.
+* In this file you should write your main styles. (or centralize your imports)
+* Import this file using the following HTML or equivalent:
+* <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+@import url("http://fonts.googleapis.com/earlyaccess/notosanstc.css");
+/* line 5, ../../../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 14, ../sass/todolist.scss */
+* {
+  box-sizing: border-box;
+  user-select: none;
+  position: relative;
+  box-sizing: border-box;
+}
+
+/* line 21, ../sass/todolist.scss */
+html,
+body {
+  width: 100%;
+  height: 100%;
+  font-family: 'Noto Sans TC', sans-serif;
+  background-color: #334276;
+}
+
+/* line 29, ../sass/todolist.scss */
+.header {
+  width: 100%;
+  height: 15%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+  position: fixed;
+  z-index: 999;
+  background-color: #3498db;
+  box-shadow: 0px 2px 6px 2px rgba(51, 51, 102, 0.5);
+  border-radius: 2%;
+}
+
+/* line 43, ../sass/todolist.scss */
+.memo {
+  width: 33%;
+  height: 100%;
+  font-size: 4rem;
+  font-weight: 400;
+  letter-spacing: 5px;
+  color: rgba(255, 255, 255, 0.7);
+  margin-top: 2%;
+  text-align: left;
+  padding-left: 20px;
+}
+
+/* line 55, ../sass/todolist.scss */
+.name {
+  width: 33%;
+  height: 100%;
+  font-size: 2rem;
+  font-weight: 300;
+  letter-spacing: 2px;
+  color: rgba(255, 255, 255, 0.7);
+  margin-top: 6%;
+  text-align: center;
+  padding-right: 20px;
+}
+
+/* line 67, ../sass/todolist.scss */
+.time {
+  width: 33%;
+  height: 100%;
+  font-size: 2rem;
+  font-weight: 300;
+  letter-spacing: 2px;
+  color: rgba(255, 255, 255, 0.7);
+  margin-top: 6%;
+  text-align: right;
+  padding-right: 20px;
+}
+
+/* line 79, ../sass/todolist.scss */
+.nav {
+  height: 100%;
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  background-color: #3498db;
+  position: fixed;
+  box-shadow: 0px 0px 2px 2px rgba(51, 51, 102, 0.15);
+}
+
+/* line 89, ../sass/todolist.scss */
+.bbox {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  top: 15%;
+}
+
+/* line 97, ../sass/todolist.scss */
+.add_btn {
+  width: 80%;
+  height: 50px;
+  margin: 10px 10px 5px 10px;
+  padding-left: 5px;
+  font-size: 1.3rem;
+  border-radius: 3%;
+  color: #444;
+  background-color: #FFF481;
+  border-color: #FFF481;
+  box-shadow: 2px 2px 4px rgba(33, 33, 33, 0.2);
+  cursor: pointer;
+}
+/* line 109, ../sass/todolist.scss */
+.add_btn:focus {
+  outline: none;
+}
+/* line 112, ../sass/todolist.scss */
+.add_btn:hover {
+  box-shadow: 2px 2px 4px rgba(33, 33, 33, 0.15);
+  color: #666;
+}
+
+/* line 118, ../sass/todolist.scss */
+.list {
+  font-size: 1.3rem;
+  color: #444;
+  text-decoration: none;
+  text-align: center;
+  margin: 0px 10px 10px 10px;
+  border-bottom: 1px solid black;
+  line-height: 40px;
+  padding: 0px 0px 5px 0px;
+}
+/* line 127, ../sass/todolist.scss */
+.list:hover {
+  color: 0px 0px 2px rgba(33, 33, 33, 0.15);
+  color: #777;
+}
+/* line 131, ../sass/todolist.scss */
+.list:focus {
+  outline: none;
+}
+/* line 134, ../sass/todolist.scss */
+.list:active {
+  border: 1px inset;
+}
+
+/* line 139, ../sass/todolist.scss */
+.ALL {
+  margin-top: 10px;
+}
+
+/* line 143, ../sass/todolist.scss */
+.Delete {
+  border-bottom: none;
+}
+
+/* line 147, ../sass/todolist.scss */
+.article {
+  left: 150px;
+  width: 86%;
+  height: 100%;
+  margin: 10px;
+}
+
+/* line 154, ../sass/todolist.scss */
+.box {
+  width: 100%;
+  height: 50px;
+  border: 1px solid rgba(155, 155, 155, 0.9);
+  border-radius: 3%;
+  margin: 3px 0px 15px 0px;
+  display: flex;
+  justify-content: flex-start;
+  line-height: 50px;
+}
+/* line 163, ../sass/todolist.scss */
+.box a {
+  color: black;
+  text-decoration: none;
+}
+
+/* line 169, ../sass/todolist.scss */
+.content {
+  width: 600px;
+}
+
+/* line 173, ../sass/todolist.scss */
+.hidebox {
+  padding: 5px;
+  border: 1px solid white;
+  width: 120px;
+  height: 50px;
+  display: flex;
+  justify-content: space-around;
+  background-color: rgba(255, 255, 255, 0.65);
+}
+
+/* line 183, ../sass/todolist.scss */
+.img_1 {
+  width: 25px;
+  height: 25px;
+}
+/* line 186, ../sass/todolist.scss */
+.img_1:hover {
+  box-shadow: 1.5px 1.5px 6px rgba(33, 33, 33, 0.2);
+}
+
+/* line 191, ../sass/todolist.scss */
+.date {
+  padding-left: 200px;
+}
