@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Added</title>
+    <link rel="stylesheet" href="./stylesheets/memo.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+</head>
+<script src="./memo.js"></script>
+
+<body>
+
+    <div class="bbox">
+        <header id="header">Memo</header>
+        <article id="article">
+            <p id="content">Content:</p>
+            <TextArea Cols="20" Rows="1" Name="content" class="added-input"></TextArea>
+            <div class="box">
+                <input type="checkbox" class="checkbox">Important
+            </div>
+            <div class="radio-box">
+                <input type="radio" name="time" value="1">Urgent
+                <input type="radio" name="time" value="2">General
+                <input type="radio" name="time" value="3">Slow
+            </div>
+            <button class="btn" id="complete">Complete</buttom>
+            <button class="btn" id="delete">Delete</buttom>
+        </article>
+    </div>
+
+</body>
+
+</html>
