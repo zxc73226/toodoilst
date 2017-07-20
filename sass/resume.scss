@@ -27,58 +27,65 @@ body {
   margin: 0px auto;
   display: flex;
   flex-direction: column;
-  text-align: center;
   right: 1%;
 }
 
 #header {
   width: 50%;
-  margin: 0px auto;
-  font-size: 72px;
-  top: 8%;
+  margin: 30px auto;
+  font-size: 4rem;
   color: rgba(255, 255, 255, .7);
-  margin-right: 28%;
+  text-align: center;
 }
 
 #article {
-  width: 400px;
-  height: 400px;
-  margin: 20px auto 0px auto;
-  background-image: url("../image/.png");
-  background-size: cover;
-  line-height: 48px;
-  padding: 75px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.text-box {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  font-size: 1.5rem;
+  margin: 10px 0px;
+  letter-spacing: 1.1px;
+  color: rgba(255, 255, 255, .5);
+}
+
+.RP {
+  margin-top: 100px;
 }
 
 .text {
-  top: 15%;
-  text-align: right;
-  font-size: .8rem;
-  letter-spacing: 1px;
-  left: -25px;
+  color: rgba(66, 66, 200, 1);
+  margin-left: 10px;
 }
 
-.regisered-input-box {
-  margin-left: 5px;
-  background-color: rgba(0, 0, 0, .01);
+.input-box {
+  margin: 2px 0px 0px 5px;
+  padding: 0px 3px 0px 3px;
   border: none;
-  border-bottom: 1px solid #333;
-  width: 150px;
-  padding: 2px 5px;
+  letter-spacing: .7px;
+  background-color: #334276;
+  border-bottom: 1px solid rgba(255, 255, 255, .7);
   &:focus {
     outline: none;
   }
 }
 
-#btn {
+.btn {
+  height: 30px;
   width: 130px;
   font-size: 1.3rem;
-  margin-top: 40px;
+  margin-top: 20px;
+  margin-right: 5px;
   float: right;
   background-color: #E5FF86;
   box-shadow: 2px 2px 4px rgba(33, 33, 33, .2);
   border-radius: 8px;
-  left: -25px;
   border: none;
   cursor: pointer;
   &:focus {
