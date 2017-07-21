@@ -8,8 +8,10 @@
     <title>Added</title>
     <link rel="stylesheet" href="./stylesheets/added.css">
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="./js/added.js"></script>
+    <script src="./js/config.js"></script>
 </head>
-<script src="./added.js"></script>
+
 
 <body>
 
@@ -19,12 +21,12 @@
             <p id="content">Content:</p>
             <TextArea Cols="20" Rows="1" Name="content" class="added-input"></TextArea>
             <div class="box">
-                <input type="checkbox" class="checkbox">Important
+                <input type="checkbox" class="checkbox" value="">Important
             </div>
             <div class="radio-box">
-                <input type="radio" name="time" value="1">Urgent
-                <input type="radio" name="time" value="2">General
-                <input type="radio" name="time" value="3">Slow
+                <input type="radio" class="radio" name="time" value="1">Urgent
+                <input type="radio" class="radio" name="time" value="2">General
+                <input type="radio" class="radio" name="time" value="3">Slow
             </div>
             <button id="btn">Create</buttom>
         </article>
