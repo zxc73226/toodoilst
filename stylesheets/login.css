@@ -168,22 +168,18 @@ body {
   box-shadow: 2px 2px 4px rgba(33, 33, 33, 0.15);
   color: #666;
 }
-/* line 106, ../sass/login.scss */
-#btn:active {
-  border: 1px inset;
-}
 
-/* line 111, ../sass/login.scss */
+/* line 108, ../sass/login.scss */
 #register {
   margin-right: 22%;
 }
 
-/* line 115, ../sass/login.scss */
+/* line 112, ../sass/login.scss */
 #forget {
   margin-right: 12px;
 }
 
-/* line 119, ../sass/login.scss */
+/* line 116, ../sass/login.scss */
 .else-button {
   color: #777;
   text-decoration: none;
@@ -193,7 +189,7 @@ body {
   font-weight: 400;
   transition: all 0.1s linear;
 }
-/* line 127, ../sass/login.scss */
+/* line 124, ../sass/login.scss */
 .else-button:hover {
   color: #333;
 }
