@@ -3,6 +3,7 @@ $(() => {
     let $account = $("#account");
     let $password = $("#password");
     let $loginBtn = $("#btn");
+    //請改改成on與ajax
     $loginBtn.click(() => {
         let account = $account.val();
         let password = $password.val();

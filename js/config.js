@@ -1,1 +1,1 @@
-var _API_DOMAIN = 'http://52.192.132.205';
+const _API_DOMAIN = 'http://52.192.132.205';

@@ -6,6 +6,7 @@ $(() => {
     let $name = $('#name');
     let $gender = $('.gender');
     let $registeredBtn = $('#btn');
+    //請改改成on與ajax
     $registeredBtn.click(() => {
         let account = $account.val();
         let password = $password.val();
